@@ -1,6 +1,7 @@
 
 #about {
-    background: #2B2B2B;
+    background:#465162 url(../images/tile.png) 0 0 repeat;
+    background-attachment:fixed;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;

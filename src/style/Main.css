@@ -7,4 +7,13 @@ div #canvas {
     background: -webkit-linear-gradient(top,  #00ff9f 0%,#d600ff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #00ff9f 0%,#d600ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff9f', endColorstr='#d600ff',GradientType=0 ); /* IE6-9 */
-}  
+}
+/*  Container that holds  canvas and the title carousel */
+div #container {
+    overflow: hidden;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    }

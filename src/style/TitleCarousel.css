@@ -1,12 +1,14 @@
 .word {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    opacity: 0;
-    color:black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+      font-family: 'Libre Caslon Text', serif;
+      font-size: 56px;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      opacity: 0;
+      color:#0f292f;
+      top: 62%;
+      left: 50%;
+      transform: translate(-50%, -50%)
   }
   
   .letter {

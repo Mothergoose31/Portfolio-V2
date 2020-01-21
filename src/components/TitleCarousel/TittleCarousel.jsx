@@ -85,41 +85,46 @@ export default class TittleCarousel extends Component {
             <div>
                 <h1>
                     <span className='word' style={{opacity:0}} >
-                        <span className="letter in">J</span>
+                        <span className="letter in">S</span>
                         <span className="letter in">o</span>
-                        <span className="letter in">s</span>
+                        <span className="letter in">f</span>
+                        <span className="letter in">t</span>
+                        <span className="letter in">w</span>
+                        <span className="letter in">a</span>
+                        <span className="letter in">r</span>
                         <span className="letter in">e</span>
-                        <span className="letter in">p</span>
-                        <span className="letter in">h</span>
                         <span className="letter in">{'\u00A0'}</span>
-                        <span className="letter in">B</span>
+                        <span className="letter in">E</span>
+                        <span className="letter in">n</span>
+                        <span className="letter in">g</span>
+                        <span className="letter in">i</span>
+                        <span className="letter in">n</span>
                         <span className="letter in">e</span>
                         <span className="letter in">e</span>
-                        <span className="letter in">c</span>
-                        <span className="letter in">h</span>
+                        <span className="letter in">r</span>
                     </span>
                     <span className='word' style={{opacity:0}}>
-                        <span className='letter out'>C</span>
-                        <span className='letter out'>o</span>
-                        <span className='letter out'>o</span>
-                        <span className='letter out'>l</span>
-                        <span className='letter out'>{'\u00A0'}</span>
-                        <span className='letter out'>G</span>
+                        <span className='letter out'>H</span>
                         <span className='letter out'>u</span>
-                        <span className='letter out'>y</span>
-                        <span className='letter out'>.</span>
+                        <span className='letter out'>m</span>
+                        <span className='letter out'>a</span>
+                        <span className='letter out'>n</span>
+                        <span className='letter out'>i</span>
+                        <span className='letter out'>s</span>
+                        <span className='letter out'>t</span>
+                        
 
                     </span> 
                     <span className='word' style={{opacity:0}}>
-                        <span className='letter out'>H</span>
-                        <span className='letter out'>i</span>
+                        <span className='letter out'>F</span>
+                        <span className='letter out'>u</span>
+                        <span className='letter out'>t</span>
+                        <span className='letter out'>u</span>
                         <span className='letter out'>r</span>
-                        <span className='letter out'>e</span>
-                        <span className='letter out'>{'\u00A0'}</span>
-                        <span className='letter out'>m</span>
-                        <span className='letter out'>e</span>
-                        <span className='letter out'>!</span>
-                        <span className='letter out'>!</span>
+                        <span className='letter out'>i</span>
+                        <span className='letter out'>s</span>
+                        <span className='letter out'>t</span>
+                        
 
                     </span> 
                 </h1>

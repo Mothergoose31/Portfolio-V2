@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import nutrifacts from "../../images/nutri-facts.PNG";
+import SafeHouse from "../../images/SafeHouse.PNG";
+import LordOfTheRingsOthello from "../../images/Othello.PNG"
 
 export default class ProjectsComponent extends Component {
     render() {
@@ -6,12 +9,12 @@ export default class ProjectsComponent extends Component {
             <div>
                 <section id="portfolio">
                     <div className="row">
-                        <div className="twelve columns collapsed">
+                        <div className="twelve-columns-collapsed">
                             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                                <div  className="columns portfolio-item">
+                                <div  className="columns-portfolio-item">
                                     <div className="item-wrap">
                                         <a href='https://nutri-facts.herokuapp.com/' title='Nutri-facts'>
-                                            <img alt='Nutri-facts' src='../../images/nutri-facts.PNG' />
+                                            <img alt='Nutri-facts' src={nutrifacts} className='imageContainer'/>
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
                                                     <h5>Nutri-facts</h5>
@@ -23,7 +26,7 @@ export default class ProjectsComponent extends Component {
                                     </div>
                                     <div className="item-wrap">
                                         <a href="https://epic-shaw-f54583.netlify.com/" title='SafeHouse'>
-                                            <img src="../../images/SafeHouse.PNG" alt="safehouse"/>
+                                            <img src={SafeHouse} alt="safehouse" className="imageContainer"/>
                                             <div className='overlay'>
                                                 <div className="portfolio-item-meta">
                                                     <h5>SafeHouse</h5>
@@ -34,7 +37,7 @@ export default class ProjectsComponent extends Component {
                                     </div>
                                     <div className="item-wrap">
                                         <a href="https://mothergoose31.github.io/OthelloV3/" title='Lord Of The Rings Othello'>
-                                            <img src="../../images/Othello.PNG" alt="Othelo"/>
+                                            <img src={LordOfTheRingsOthello} alt="Othelo" className="imageContainer"/>
                                             <div className='overlay'>
                                                 <div className="portfolio-item-meta">
                                                     <h5>Lord Of the Rings Othello</h5>

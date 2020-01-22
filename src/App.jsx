@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Main from "./components/MainComponent/MainComponent"
+import TitleCarousel from "./components/TitleCarousel/TittleCarousel"
 import About from './components/AboutComponent/About'
 import Projects  from "./components/ProjectsComponent/ProjectsComponent"
-import TitleCarousel from "./components/TitleCarousel/TittleCarousel"
+import Footer from './components/Footer/Footer'
 
 
 
@@ -23,6 +24,7 @@ function App() {
       
       <About/>
       <Projects/>
+      <Footer/>
     </div>
   );
 }

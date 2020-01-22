@@ -6,7 +6,12 @@ import Projects  from "./components/ProjectsComponent/ProjectsComponent"
 import TitleCarousel from "./components/TitleCarousel/TittleCarousel"
 
 
+
+
+
 import './App.css';
+
+
 
 function App() {
   return (

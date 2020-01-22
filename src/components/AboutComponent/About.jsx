@@ -27,7 +27,14 @@ class About extends Component {
                     </div>
                     <div className="nine  columns main-col">
                         <h2>About Me</h2> 
-                        <p></p>
+                        <p>  I'm fascinated with learning and exploring technological, socioeconomic, geopolitical, and environmental  trends.
+                             To explorer and predict possibilities about the future. More precisely how stratification of
+                            those trends will affect human well being. As we continue into the future technology will be an
+                            ever increasing part of our lives. I love that through programming I can Bring Ideas to life
+                            and while at it i enjoy maximizing ease of use and comfort  for the users.
+                            <br/>
+                            <br/> 
+                            In my spare time  you'll find me  Reading,Drawing, Cycling , Gardening and hanging out with my family</p>
                         <div className="row">
                             <div className="columns contact-details">
                             <h2>Contact Details</h2>

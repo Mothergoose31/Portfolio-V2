@@ -1,5 +1,10 @@
 #footerContainer{
     background-color: #501f3a;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 1.1em;
+    display:flex;
+    flex-direction: row;
+    color:#cccccc;
 }
 
 

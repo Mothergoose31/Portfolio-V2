@@ -9,7 +9,7 @@ export default class Footer extends Component {
             <section id="footerContainer">
                 <div className='footer'>
                     <div className='footer-email-container'>
-                        <span>CONTACT</span>
+                        <span>Contact</span>
                         <div className='contact-email'>
                             <span>Email:</span> JosephAlvarengaBeech@pm.me
                         </div>

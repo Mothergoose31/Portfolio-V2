@@ -12,7 +12,7 @@ export default class ProjectsComponent extends Component {
                         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                             <div  className="columns-portfolio-item">
                                 <div className="item-wrap">
-                                    <a href='https://nutri-facts.herokuapp.com/' title='Nutri-facts'>
+                                    <a href='https://nutri-facts.herokuapp.com/' title='Nutri-facts' target="_blank">
                                         <img alt='Nutri-facts' src={nutrifacts} className='imageContainer'/>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
@@ -24,7 +24,7 @@ export default class ProjectsComponent extends Component {
                                     </a>
                                 </div>
                                 <div className="item-wrap">
-                                    <a href="https://epic-shaw-f54583.netlify.com/" title='SafeHouse'>
+                                    <a href="https://epic-shaw-f54583.netlify.com/" title='SafeHouse' target="_blank">
                                         <img src={SafeHouse} alt="safehouse" className="imageContainer"/>
                                         <div className='overlay'>
                                             <div className="portfolio-item-meta">
@@ -35,7 +35,7 @@ export default class ProjectsComponent extends Component {
                                     </a>
                                 </div>
                                 <div className="item-wrap">
-                                    <a href="https://mothergoose31.github.io/OthelloV3/" title='Lord Of The Rings Othello'>
+                                    <a href="https://mothergoose31.github.io/OthelloV3/" title='Lord Of The Rings Othello' target="_blank">
                                         <img src={LordOfTheRingsOthello} alt="Othelo" className="imageContainer"/>
                                         <div className='overlay'>
                                             <div className="portfolio-item-meta">

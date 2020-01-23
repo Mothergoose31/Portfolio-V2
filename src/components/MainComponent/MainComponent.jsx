@@ -122,7 +122,7 @@ class Three extends Component {
     render() {
         return (
 
-        <>
+        <section id ="home">
             
             <nav id="nav-wrap">
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -133,12 +133,12 @@ class Three extends Component {
                     <li><a className="smoothscroll" href="#about">About</a></li>
 
                     <li><a className="smoothscroll" href="#portfolio">portfolio</a></li>
-                </ul>
+                    </ul>
 
             </nav>
             <div id='canvas'></div>
         
-        </>
+        </section>
         )
     }
 }

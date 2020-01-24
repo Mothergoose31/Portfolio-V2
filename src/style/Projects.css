@@ -1,65 +1,66 @@
+#portfolio{
+   background-color: #cccccc;
 
-   .columns-portfolio-item{
-   display:-ms-flexbox;
-   -ms-flexbox-wrap:wrap;
-   -ms-flex-direction: column;
-   -webkit-flex-flow:row wrap;
-   flex-flow:row wrap;
-   display:-webkit-box;
-   justify-content: space-evenly;
-   height: 80vh;
-   width: 100vw;
+}
+
+.columns-portfolio-item{
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction: row;
    align-items: center;
-         
-   }
-   .item-wrap {
-      overflow: hidden;
-      position: relative;
-      -webkit-box-flex: auto;
-      -ms-flex:auto;
-      flex:auto;
-      margin:0.5vw;
-   
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out;
-   }
-   .item-wrap img {
-      width:100%;
-      height:auto;
-   }
+   justify-content: center;
 
-   @media only screen and (max-width: 400px) {
-      .item-wrap{
-         margin: 0;
-      }
-      .columns-portfolio-item{
-         padding:0;
-      }
-    }
- 
- .imageContainer{
-    height:25vh;
-    width: auto;
- }
+}
 
- #portfolio{
-    background-color: #cccccc;
-
- }
- .item-wrap {
+.item-wrap{
    overflow: hidden;
    position: relative;
+   flex:auto;
+   padding: .5vh;
+   width:29vw;
+   height: auto;
    
+   display: block;
+   object-fit: scale-down;
+   object-position: center;
+
 
    -webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+
 }
+
+@media only screen and (max-width: 600px) {
+   .item-wrap{
+      overflow: hidden;
+   position: relative;
+   -webkit-box-flex: auto;
+   -ms-flex:auto;
+   flex:auto;
+   width: 100%;
+   height:auto;
+   object-fit: scale-down;
+   padding: .5vh;
+   ;
+
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+
+}
+
+   }
+
+
+
+   
+
+ 
 .item-wrap .overlay {
    position: absolute;
    left: 0;

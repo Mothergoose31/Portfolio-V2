@@ -1,44 +1,50 @@
 
 #about {
-    background:#cb2d6f url(../images/tile.png) 0 0 repeat;
-    background-attachment:fixed;
-    padding-top: 45px;
-    padding-bottom: 70px;
-    overflow: hidden;
-   color:#cccccc;
+   background:#cb2d6f url(../images/tile.png) 0 0 repeat;
+   background-attachment:fixed;
+   padding-top: 45px;
+   padding-bottom: 70px;
+   overflow: hidden;
+  color:#cccccc;
+  height:75vh;
+}
+@media only screen and (max-width: 600px) {
+   #about{
+      height: auto;
+   }
 }
 #about p {
-   font-size: 1.3em;
+  font-size: 1.3em;
 }
 .aboutContainer{
-   display:flex;
-   flex-direction: row;
+  display:flex;
+  flex-direction: row;
 }
 .aboutMe{
-   text-align: center;
-   margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-decoration: underline;
-    text-decoration-color: #cccccc;
+  text-align: center;
+  margin-block-start: 0em;
+   margin-block-end: 0em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   text-decoration: underline;
+   text-decoration-color: #cccccc;
 }
 .aboutParagraph{
-   padding-left: 2%;
+  padding-left: 2%;
 }
- 
- 
- 
- #about .profile-pic {
-    padding-left: 1%;
-    margin-top: 30px;
-    position: relative;
-    width: auto;
-    height:200px;
-    border-radius: 11%;
- }
- #about .contact-details { width: 41.66667%; }
- #about .download {
-    width: 58.33333%;
-    padding-top: 6px;
- }
+
+
+
+#about .profile-pic {
+   padding-left: 1%;
+   margin-top: 30px;
+   position: relative;
+   width: auto;
+   height:200px;
+   border-radius: 11%;
+}
+#about .contact-details { width: 41.66667%; }
+#about .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}

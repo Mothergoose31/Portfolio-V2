@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import nutrifacts from "../../images/nutri-facts.PNG";
-import SafeHouse from "../../images/SafeHouse.PNG";
+import SafeHouse from "../../images/safeHouse.PNG";
 import LordOfTheRingsOthello from "../../images/Othello.PNG"
 
 export default class ProjectsComponent extends Component {

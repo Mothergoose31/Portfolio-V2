@@ -3,11 +3,14 @@
     font-family: 'Libre Caslon Text', serif;
     font-size: 1.1em;
     color:#cccccc;
+    height:200px;
+    
 }
 .footer{
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    
 }
 
 

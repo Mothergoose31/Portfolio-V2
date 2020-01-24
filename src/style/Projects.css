@@ -17,8 +17,8 @@
    position: relative;
    flex:auto;
    padding: .5vh;
-   width:29vw;
-   height: auto;
+   height:400px;
+   width:auto;
    
    display: block;
    object-fit: scale-down;
@@ -40,8 +40,8 @@
    -webkit-box-flex: auto;
    -ms-flex:auto;
    flex:auto;
-   width: 100%;
-   height:auto;
+   width: auto;
+   height:200px;
    object-fit: scale-down;
    padding: .5vh;
    ;

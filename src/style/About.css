@@ -12,6 +12,7 @@
    #about{
       height: auto;
    }
+   
 }
 #about p {
   font-size: 1.3em;
@@ -19,6 +20,9 @@
 .aboutContainer{
   display:flex;
   flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+  width:50%;
 }
 .aboutMe{
   text-align: center;

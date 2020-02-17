@@ -1,80 +1,77 @@
 div #canvas {
-  
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    background: -webkit-linear-gradient(top,#cb2d6f  0%,#14a098 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #cb2d6f  0%,#14a098 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff9f', endColorstr='#d600ff',GradientType=0 ); /* IE6-9 */
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   overflow: hidden;
+   background: -webkit-linear-gradient(top,#cb2d6f  0%,#14a098 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #cb2d6f  0%,#14a098 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff9f', endColorstr='#d600ff',GradientType=0 ); /* IE6-9 */
 }
 /*  Container that holds  canvas and the title carousel */
 div #container {
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    text-align: center;
-    color: white;
-    }
+   overflow: hidden;
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+   text-align: center;
+   color: white;
+   }
 
-    #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-        margin: 0;
-        padding: 0;
-        border: none;
-        outline: none;
-    }
-    
+   #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+   }
+   
     /* nav-wrap */
-    #nav-wrap {
-       font: 12px 'Libre Caslon Text', serif;
-       width: 100%;
-       text-transform: uppercase;
-       letter-spacing: 2.5px;
-       margin: 0 auto;
-       z-index: 100;
-       position: fixed;
-       left: 0;
-       top: 0;
-    }
-    .opaque { background-color: #333; }
-    
+   #nav-wrap {
+      font: 12px 'Libre Caslon Text', serif;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      margin: 0 auto;
+      z-index: 100;
+      position: fixed;
+      left: 0;
+      top: 0;
+   }
+   .opaque { background-color: #333; }
+   
     /* hide toggle button */
-    #nav-wrap > a.mobile-btn { display: none; }
-    
-    ul#nav {
-       min-height: 48px;
-       width: auto;
-    
-       /* center align the menu */
-       text-align: center;
-    }
-    ul#nav li {
-       position: relative;
-       list-style: none;
-       height: 48px;
-       display: inline-block;
-    }
-    
-    /* Links */
-    ul#nav li a {
-    
-    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-    
-       display: inline-block;
-       padding: 8px 13px;
-       line-height: 32px;
-        text-decoration: none;
-       text-align: left;
-       color: #fff;
-    
-        -webkit-transition: color .2s ease-in-out;
-        -moz-transition: color .2s ease-in-out;
-        -o-transition: color .2s ease-in-out;
-        -ms-transition: color .2s ease-in-out;
-        transition: color .2s ease-in-out;
-    }
-    
-    ul#nav li a:active { background-color: transparent !important; }
-    
-    
+   #nav-wrap > a.mobile-btn { display: none; }
+   
+   ul#nav {
+      min-height: 48px;
+      width: auto;
+   /* center align the menu */
+      text-align: center;
+   }
+   ul#nav li {
+      position: relative;
+      list-style: none;
+      height: 48px;
+      display: inline-block;
+   }
+   
+   /* Links */
+   ul#nav li a {
+   
+   /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+   
+      display: inline-block;
+      padding: 8px 13px;
+      line-height: 32px;
+      text-decoration: none;
+      text-align: left;
+      color: #fff;
+      -webkit-transition: color .2s ease-in-out;
+      -moz-transition: color .2s ease-in-out;
+      -o-transition: color .2s ease-in-out;
+      -ms-transition: color .2s ease-in-out;
+      transition: color .2s ease-in-out;
+   }
+   
+   ul#nav li a:active { background-color: transparent !important; }
+   
+   

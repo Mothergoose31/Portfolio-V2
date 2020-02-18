@@ -1,5 +1,14 @@
-@import url('./style/About.css');
+/* style for the first component */
 @import url('./style/Main.css');
-@import url('./style/Projects.css');
+
+/* style for the words in the first  component */
 @import url('./style/TitleCarousel.css');
+
+/* About section style */
+@import url('./style/About.css');
+
+/* style for projects */
+@import url('./style/Projects.css');
+
+/* style for the footer */
 @import url('./style/Footer.css');

@@ -1,17 +1,18 @@
+
+/* Section container */
 #portfolio{
    background-color: #cccccc;
 
 }
-
+/* container for all the  projects  in the portfolio */
 .columns-portfolio-item{
    display:flex;
    flex-wrap:wrap;
    flex-direction: row;
    align-items: center;
    justify-content: center;
-
 }
-
+/* container for a single  project */
 .item-wrap{
    overflow: hidden;
    position: relative;
@@ -19,13 +20,9 @@
    padding: .5vh;
    height:400px;
    width:auto;
-   
-   
    display: block;
    object-fit: scale-down;
    object-position: center;
-
-
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -33,7 +30,6 @@
    transition: all 0.3s ease-in-out;
 
 }
-
 @media only screen and (max-width: 600px) {
    .item-wrap{
       overflow: hidden;
@@ -45,23 +41,17 @@
    height:200px;
    object-fit: scale-down;
    padding: .5vh;
-   ;
-
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
    -ms-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
 
-}
-
    }
 
+}
 
-
-   
-
- 
+/* The overlay for each project that appears when you hover over it */
 .item-wrap .overlay {
    position: absolute;
    left: 0;
@@ -70,16 +60,13 @@
    height: 100%;
    text-align: center;
    color:#cb2d6f;
-
-	opacity: 0;
+   opacity: 0;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
-
    -webkit-transition: opacity 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
-
    background: url("../images/overlay-bg.png") repeat;
 }
 .item-wrap:hover .overlay {

@@ -12,7 +12,7 @@ export default class Footer extends Component {
                         <div className='footer-email-container'>
 
                             <div className='contact-email'>
-                                <span>Email:</span> JosephAlvarengaBeech@pm.me
+                                <span>Email: <a href="mailto:JosephAlvarengaBeech@pm.me">JosephAlvarengaBeech@pm.me</a></span> 
                             </div>
                             <div className="phone">(206)-455-0824</div>
                         </div>

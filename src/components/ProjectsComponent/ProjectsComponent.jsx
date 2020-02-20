@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import nutrifacts from "../../images/nutri-facts.PNG";
-import SafeHouse from "../../images/safeHouse.PNG";
-import LordOfTheRingsOthello from "../../images/Othello.PNG"
+import SafeHouse from '../../images/safe-houseResize.png';
+import nutrifacts from '../../images/nutri-factsResize.png';
+import LordOfTheRingsOthello from '../../images/lordofringsothelloResize.png'
+
 
 export default class ProjectsComponent extends Component {
     render() {

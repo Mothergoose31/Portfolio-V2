@@ -13,7 +13,9 @@
     align-items: center;
 }
 
-
+.email{
+    color:#cb2d6f;
+}
 .social {
 
     margin-left: auto;

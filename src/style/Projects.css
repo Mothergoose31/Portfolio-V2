@@ -8,7 +8,7 @@
 .columns-portfolio-item{
    display:flex;
    flex-wrap:wrap;
-   flex-direction: row;
+   flex-direction:row;
    align-items: center;
    justify-content: center;
 }
@@ -18,7 +18,7 @@
    position: relative;
    flex:auto;
    padding: .5vh;
-   height:400px;
+   height:200px;
    width:auto;
    display: block;
    object-fit: scale-down;
